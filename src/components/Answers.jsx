@@ -19,7 +19,6 @@ export default function Answers({ answers, selectedAnswer, answerState, onSelect
                     && isSelected) {
                     cssClass = answerState;
                 }
-                console.info(answerState);
                 return (
 
                     <li key={answer} className="answer">
